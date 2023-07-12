@@ -16,5 +16,7 @@ namespace Models
         public string UserName {get;set;} = string.Empty;
         [Column("email")]
         public string Email {get;set;} = string.Empty;
+        [Column("country")]
+        public string Country {get;set;} = string.Empty;
     }
 }
